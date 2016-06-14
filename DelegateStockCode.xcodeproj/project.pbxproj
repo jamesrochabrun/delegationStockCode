@@ -13,6 +13,7 @@
 		7B4E39AD1D105FF70076EE31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B4E39AB1D105FF70076EE31 /* Main.storyboard */; };
 		7B4E39AF1D105FF70076EE31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B4E39AE1D105FF70076EE31 /* Assets.xcassets */; };
 		7B4E39B21D105FF70076EE31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B4E39B01D105FF70076EE31 /* LaunchScreen.storyboard */; };
+		7B4E39BB1D1063F50076EE31 /* TapImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4E39BA1D1063F50076EE31 /* TapImage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		7B4E39AE1D105FF70076EE31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B4E39B11D105FF70076EE31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B4E39B31D105FF70076EE31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B4E39B91D1063F50076EE31 /* TapImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TapImage.h; path = ../TapImage.h; sourceTree = "<group>"; };
+		7B4E39BA1D1063F50076EE31 /* TapImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TapImage.m; path = ../TapImage.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +61,11 @@
 		7B4E39A11D105FF70076EE31 /* DelegateStockCode */ = {
 			isa = PBXGroup;
 			children = (
+				7B4E39BC1D1063FA0076EE31 /* model */,
+				7B4E39BD1D1064000076EE31 /* view */,
+				7B4E39BE1D1064060076EE31 /* controller */,
 				7B4E39A51D105FF70076EE31 /* AppDelegate.h */,
 				7B4E39A61D105FF70076EE31 /* AppDelegate.m */,
-				7B4E39A81D105FF70076EE31 /* ViewController.h */,
-				7B4E39A91D105FF70076EE31 /* ViewController.m */,
 				7B4E39AB1D105FF70076EE31 /* Main.storyboard */,
 				7B4E39AE1D105FF70076EE31 /* Assets.xcassets */,
 				7B4E39B01D105FF70076EE31 /* LaunchScreen.storyboard */,
@@ -77,6 +81,31 @@
 				7B4E39A31D105FF70076EE31 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7B4E39BC1D1063FA0076EE31 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				7B4E39B91D1063F50076EE31 /* TapImage.h */,
+				7B4E39BA1D1063F50076EE31 /* TapImage.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		7B4E39BD1D1064000076EE31 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		7B4E39BE1D1064060076EE31 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				7B4E39A81D105FF70076EE31 /* ViewController.h */,
+				7B4E39A91D105FF70076EE31 /* ViewController.m */,
+			);
+			name = controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +179,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B4E39AA1D105FF70076EE31 /* ViewController.m in Sources */,
+				7B4E39BB1D1063F50076EE31 /* TapImage.m in Sources */,
 				7B4E39A71D105FF70076EE31 /* AppDelegate.m in Sources */,
 				7B4E39A41D105FF70076EE31 /* main.m in Sources */,
 			);
